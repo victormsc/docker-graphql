@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Forzar a todas las actions a ejecutarse en Node.js 24
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true  # Forzar a todas las actions a ejecutarse en Node.js 24
 
 jobs:
 
